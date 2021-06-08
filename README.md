@@ -55,5 +55,6 @@ service ssh restart
 ```angular2html
 docker start {container name}
 sudo docker exec -it {container name} /bin/bash
+#service ssh restart
 docker stop {container name}
 ```
