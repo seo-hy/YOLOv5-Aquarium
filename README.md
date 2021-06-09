@@ -40,7 +40,7 @@ python3 detect.py --weights ./runs/train/aquarium_test/weights/best.pt  --img 41
 ![result](https://user-images.githubusercontent.com/68395698/121138582-cf057380-c872-11eb-8b11-0a54e2aef3aa.png)
 
 
-### docker Container ssh setting
+### docker container ssh setting
 ```angular2html
 apt-get update
 apt-get install ssh
