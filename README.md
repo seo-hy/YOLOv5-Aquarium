@@ -50,7 +50,18 @@ apt-get install ssh
 ```angular2html
 adduser seohyun
 service ssh restart
+vi /etc/ssh/sshd_config
 ```
+* Do the following changes : Uncomment
+```
+ PermitRootLogin yes
+ Port 22
+ AddressFamily any
+ ListenAddress 0.0.0.0
+ ListenAddress ::
+ PasswordAuthentication yes
+```
+
 * exec
 ```angular2html
 docker start {container name}
