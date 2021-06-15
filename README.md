@@ -7,6 +7,13 @@ sudo docker run -it --gpus '"device=0,1,2"' -p {port}:22 --ipc=host --name {set 
 ```
 
 Use dataset from roboflow and edit data.yaml
+
+If you do the labeling yourself, install labelImg and select yolo version(txt file)
+  ```
+  pip install labelImg
+  labelImg
+  ```
+
 * data.yaml
 ```angular2html
 train: ./dataset/train/images
