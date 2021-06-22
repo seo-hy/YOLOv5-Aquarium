@@ -55,7 +55,7 @@ apt-get install ssh
 ```
 
 ```angular2html
-adduser seohyun
+passwd
 service ssh restart
 vi /etc/ssh/sshd_config
 ```
