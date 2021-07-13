@@ -40,7 +40,7 @@ names: ['fish', 'jellyfish', 'penguin', 'puffin', 'shark', 'starfish', 'stingray
 python3 train.py --img 416 --batch 66 --epochs 400 --data ./dataset/data.yaml --cfg ./models/yolov5s.yaml --weights yolov5s.pt --name aquarium_test
 ```
 
-### Result 
+### Detect
 ```angular2html
 python3 detect.py --weights ./runs/train/aquarium_test/weights/best.pt  --img 416 --conf 0.5 --source /home/seohyun/YOLOv5-Aquarium/dataset/valid/images/IMG_2278_jpeg_jpg.rf.3c7006d683b0fc62b9b5d84a2868c31c.jpg
 ```
