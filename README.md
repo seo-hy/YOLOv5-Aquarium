@@ -1,6 +1,6 @@
-### YOLOv5 Custom Test
+# YOLOv5 Custom Test : Aquarium
 
-### docker 
+### Setting 
 ```angular2html
 docker pull ultralytics/yolov5:v5.0
 sudo docker run -it --gpus '"device=0,1,2"' -p {port}:22 --ipc=host --name {set container name} {image id} /bin/bash
@@ -47,7 +47,7 @@ python3 detect.py --weights ./runs/train/aquarium_test/weights/best.pt  --img 41
 ![result](https://user-images.githubusercontent.com/68395698/121138582-cf057380-c872-11eb-8b11-0a54e2aef3aa.png)
 
 
-### docker container 
+### Docker Container 
 * ssh setting
 ```angular2html
 apt-get update
